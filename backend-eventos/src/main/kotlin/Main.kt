@@ -9,9 +9,11 @@ import io.ktor.server.plugins.contentnegotiation.*
 import io.ktor.serialization.kotlinx.json.*
 import org.example.org.example.database.DatabaseConfig
 import org.example.org.example.routes.authRoutes
+import org.example.org.example.utils.FirebaseConfig
 
 fun main() {
     DatabaseConfig.init()
+    FirebaseConfig.init()
 
     embeddedServer(Netty, port = 8080) {
         install(ContentNegotiation) {

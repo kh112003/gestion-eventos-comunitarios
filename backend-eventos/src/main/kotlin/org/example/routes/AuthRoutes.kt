@@ -65,4 +65,34 @@ fun Route.authRoutes() {
         call.respond(HttpStatusCode.OK,
             AuthResponse("Login exitoso", token))
     }
+
+    post("/auth/google") {
+        val body = call.receive<Map<String, String>>()
+        val idToken = body["idToken"]
+            ?: return@post call.respond(HttpStatusCode.BadRequest,
+                AuthResponse("Token requerido"))
+
+        try {
+            val decodedToken = com.google.firebase.auth.FirebaseAuth
+                .getInstance()
+                .verifyIdToken(idToken)
+
+            val email = decodedToken.email
+            val nombre = decodedToken.name ?: "Usuario Google"
+
+            transaction {
+                exec("INSERT OR IGNORE INTO usuarios (nombre, email, proveedor) VALUES ('$nombre', '$email', 'google')")
+            }
+
+            val token = com.auth0.jwt.JWT.create()
+                .withClaim("email", email)
+                .withExpiresAt(java.util.Date(System.currentTimeMillis() + 86400000))
+                .sign(com.auth0.jwt.algorithms.Algorithm.HMAC256("secret_key_eventos_2024"))
+
+            call.respond(HttpStatusCode.OK, AuthResponse("Login con Google exitoso", token))
+
+        } catch (e: Exception) {
+            call.respond(HttpStatusCode.Unauthorized, AuthResponse("Token inválido"))
+        }
+    }
 }
