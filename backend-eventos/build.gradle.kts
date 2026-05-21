@@ -28,6 +28,8 @@ dependencies {
 
     implementation("ch.qos.logback:logback-classic:1.4.14")
 
+    implementation("com.auth0:java-jwt:4.4.0")
+
     testImplementation(kotlin("test"))
 }
 

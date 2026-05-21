@@ -57,7 +57,12 @@ fun Route.authRoutes() {
             return@post
         }
 
+        val token = com.auth0.jwt.JWT.create()
+            .withClaim("email", request.email)
+            .withExpiresAt(java.util.Date(System.currentTimeMillis() + 86400000))
+            .sign(com.auth0.jwt.algorithms.Algorithm.HMAC256("secret_key_eventos_2024"))
+
         call.respond(HttpStatusCode.OK,
-            AuthResponse("Login exitoso"))
+            AuthResponse("Login exitoso", token))
     }
 }
