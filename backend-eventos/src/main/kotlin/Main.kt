@@ -7,9 +7,10 @@ import io.ktor.server.response.*
 import io.ktor.server.routing.*
 import io.ktor.server.plugins.contentnegotiation.*
 import io.ktor.serialization.kotlinx.json.*
-import org.example.org.example.database.DatabaseConfig
-import org.example.org.example.routes.authRoutes
-import org.example.org.example.utils.FirebaseConfig
+import org.example.database.DatabaseConfig
+import org.example.routes.authRoutes
+import org.example.routes.eventoRoutes
+import org.example.utils.FirebaseConfig
 
 fun main() {
     DatabaseConfig.init()
@@ -24,6 +25,7 @@ fun main() {
                 call.respondText("API Gestión de Eventos funcionando!")
             }
             authRoutes()
+            eventoRoutes()
         }
     }.start(wait = true)
 }

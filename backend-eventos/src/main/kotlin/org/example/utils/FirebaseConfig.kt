@@ -1,4 +1,4 @@
-package org.example.org.example.utils
+package org.example.utils
 
 
 import com.google.auth.oauth2.GoogleCredentials

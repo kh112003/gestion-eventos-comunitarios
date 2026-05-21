@@ -1,4 +1,4 @@
-package org.example.org.example.routes
+package org.example.routes
 
 
 import io.ktor.http.*
@@ -6,9 +6,9 @@ import io.ktor.server.application.*
 import io.ktor.server.request.*
 import io.ktor.server.response.*
 import io.ktor.server.routing.*
-import org.example.org.example.models.AuthResponse
-import org.example.org.example.models.LoginRequest
-import org.example.org.example.models.UsuarioRequest
+import org.example.models.AuthResponse
+import org.example.models.LoginRequest
+import org.example.models.UsuarioRequest
 import org.jetbrains.exposed.sql.*
 import org.jetbrains.exposed.sql.transactions.transaction
 import org.mindrot.jbcrypt.BCrypt
