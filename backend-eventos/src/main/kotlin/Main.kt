@@ -5,8 +5,11 @@ import io.ktor.server.netty.*
 import io.ktor.server.application.*
 import io.ktor.server.response.*
 import io.ktor.server.routing.*
+import org.example.org.example.database.DatabaseConfig
 
 fun main() {
+    DatabaseConfig.init()
+
     embeddedServer(Netty, port = 8080) {
         routing {
             get("/") {

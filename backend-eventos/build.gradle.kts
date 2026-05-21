@@ -22,7 +22,7 @@ dependencies {
     implementation("org.jetbrains.exposed:exposed-core:0.52.0")
     implementation("org.jetbrains.exposed:exposed-dao:0.52.0")
     implementation("org.jetbrains.exposed:exposed-jdbc:0.52.0")
-    implementation("mysql:mysql-connector-java:8.0.33")
+    implementation("org.xerial:sqlite-jdbc:3.45.3.0")
 
     implementation("org.mindrot:jbcrypt:0.4")
 
