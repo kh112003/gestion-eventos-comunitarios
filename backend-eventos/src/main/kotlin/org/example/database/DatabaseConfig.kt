@@ -32,6 +32,15 @@ object DatabaseConfig {
             fecha_creacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP
         )
     """)
+            exec("""
+    CREATE TABLE IF NOT EXISTS asistencias (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        evento_id INTEGER NOT NULL,
+        usuario_id INTEGER NOT NULL,
+        fecha_confirmacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        UNIQUE(evento_id, usuario_id)
+    )
+""")
             println("Base de datos inicializada correctamente")
         }
         println("Base de datos inicializada correctamente")

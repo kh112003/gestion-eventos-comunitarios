@@ -11,6 +11,7 @@ import org.example.database.DatabaseConfig
 import org.example.routes.authRoutes
 import org.example.routes.eventoRoutes
 import org.example.utils.FirebaseConfig
+import org.example.routes.asistenciaRoutes
 
 fun main() {
     DatabaseConfig.init()
@@ -26,6 +27,7 @@ fun main() {
             }
             authRoutes()
             eventoRoutes()
+            asistenciaRoutes()
         }
     }.start(wait = true)
 }
