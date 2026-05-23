@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Gestion Eventos Comunitarios</string>
+    <string name="cc_license_name">Creative Commons Attribution-ShareAlike 4.0 International</string>
+    <string name="cc_license_url">https://creativecommons.org/licenses/by-sa/4.0/</string>
+</resources>

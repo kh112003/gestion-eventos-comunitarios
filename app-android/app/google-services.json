@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "919620598872",
+    "project_id": "gestion-eventos-comunita-f42ed",
+    "storage_bucket": "gestion-eventos-comunita-f42ed.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919620598872:android:a7d2a20cc87168ad6c9e2d",
+        "android_client_info": {
+          "package_name": "com.grupo.gestioneventos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "919620598872-gu418chckru1l8mpjt843d1728kal6l2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzJx7H9-hH2Fgvr33sHkPznIDjtoZce40"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "919620598872-gu418chckru1l8mpjt843d1728kal6l2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
