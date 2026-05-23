@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/tvTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvUbicacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnAsistir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirmar asistencia" />
+
+        <Button
+            android:id="@+id/btnCompartir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Compartir evento" />
+
+        <Button
+            android:id="@+id/btnEditar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Editar evento" />
+
+        <Button
+            android:id="@+id/btnEliminar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Eliminar evento" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Comentarios y calificacion"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RatingBar
+            android:id="@+id/ratingEvento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="1" />
+
+        <EditText
+            android:id="@+id/etComentario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Escribe un comentario"
+            android:inputType="textMultiLine|textCapSentences"
+            android:minLines="3" />
+
+        <Button
+            android:id="@+id/btnGuardarComentario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar comentario" />
+
+        <TextView
+            android:id="@+id/tvComentarios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Sin comentarios todavia." />
+
+        <Button
+            android:id="@+id/btnVolver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Volver" />
+    </LinearLayout>
+</ScrollView>
