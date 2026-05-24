@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="86db8455-fae7-4217-a44a-072a157925d8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../app-android/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-android/.idea/AndroidProjectSystem.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-android/.idea/caches/deviceStreaming.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-android/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-android/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-android/.idea/deviceManager.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-android/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-android/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-android/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-android/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-android/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-android/local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/AndroidProjectSystem.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app-android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app-android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app-android/app/src/main/java/com/grupo/gestioneventos/DetalleEventoActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../app-android/app/src/main/java/com/grupo/gestioneventos/DetalleEventoActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app-android/app/src/main/java/com/grupo/gestioneventos/EventoFormActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../app-android/app/src/main/java/com/grupo/gestioneventos/EventoFormActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app-android/app/src/main/java/com/grupo/gestioneventos/EventosActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../app-android/app/src/main/java/com/grupo/gestioneventos/EventosActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app-android/app/src/main/java/com/grupo/gestioneventos/HistorialActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../app-android/app/src/main/java/com/grupo/gestioneventos/HistorialActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app-android/app/src/main/java/com/grupo/gestioneventos/LoginActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../app-android/app/src/main/java/com/grupo/gestioneventos/LoginActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app-android/app/src/main/java/com/grupo/gestioneventos/RegisterActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../app-android/app/src/main/java/com/grupo/gestioneventos/RegisterActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app-android/app/src/main/res/layout/activity_detalle_evento.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app-android/app/src/main/res/layout/activity_detalle_evento.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app-android/app/src/main/res/layout/activity_evento_form.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app-android/app/src/main/res/layout/activity_evento_form.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app-android/app/src/main/res/layout/activity_eventos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app-android/app/src/main/res/layout/activity_eventos.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app-android/app/src/main/res/layout/activity_historial.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app-android/app/src/main/res/layout/activity_historial.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app-android/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app-android/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app-android/app/src/main/res/layout/activity_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app-android/app/src/main/res/layout/activity_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app-android/app/src/main/res/layout/item_evento.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app-android/app/src/main/res/layout/item_evento.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app-android/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app-android/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app-android/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app-android/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app-android/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app-android/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventos.db" beforeDir="false" afterPath="$PROJECT_DIR$/eventos.db" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="backend-eventos" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="C:\Users\melvi\.gradle\wrapper\dists\gradle-9.0.0-bin\d6wjpkvcgsg3oed0qlfss3wgl\gradle-9.0.0" javaHome="C:\Program Files\Android\Android Studio\jbr" gradleVersion="9.0.0" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3EB3u9GwMDSTpTtRha1iOrAlKlA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "melvinrobles",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/melvi/Documents/GitHub/gestion-eventos-comunitarios/backend-eventos"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86db8455-fae7-4217-a44a-072a157925d8" name="Changes" comment="" />
+      <created>1779638356016</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1779638356016</updated>
+    </task>
+    <servers />
+  </component>
+</project>

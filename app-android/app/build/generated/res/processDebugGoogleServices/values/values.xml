@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">919620598872-gu418chckru1l8mpjt843d1728kal6l2.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">919620598872</string>
+    <string name="google_api_key" translatable="false">AIzaSyAzJx7H9-hH2Fgvr33sHkPznIDjtoZce40</string>
+    <string name="google_app_id" translatable="false">1:919620598872:android:a7d2a20cc87168ad6c9e2d</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAzJx7H9-hH2Fgvr33sHkPznIDjtoZce40</string>
+    <string name="google_storage_bucket" translatable="false">gestion-eventos-comunita-f42ed.firebasestorage.app</string>
+    <string name="project_id" translatable="false">gestion-eventos-comunita-f42ed</string>
+</resources>

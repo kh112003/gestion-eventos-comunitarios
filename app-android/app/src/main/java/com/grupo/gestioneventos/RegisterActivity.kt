@@ -18,10 +18,16 @@ class RegisterActivity : AppCompatActivity() {
         binding = ActivityRegisterBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        binding.rootRegister.applySystemBarPadding(applyTop = true, applyBottom = true)
+
         binding.btnRegister.setOnClickListener {
             val nombre = binding.etNombre.text.toString().trim()
             val email = binding.etEmail.text.toString().trim()
             val password = binding.etPassword.text.toString().trim()
+
+            binding.tilNombre.error = if (nombre.isEmpty()) "El nombre es requerido" else null
+            binding.tilEmail.error = if (email.isEmpty()) "El correo es requerido" else null
+            binding.tilPassword.error = if (password.isEmpty()) "La contrasena es requerida" else null
 
             if (nombre.isEmpty() || email.isEmpty() || password.isEmpty()) {
                 Toast.makeText(this, "Completa todos los campos", Toast.LENGTH_SHORT).show()

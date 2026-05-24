@@ -21,6 +21,8 @@ class HistorialActivity : AppCompatActivity() {
         binding = ActivityHistorialBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        binding.rootHistorial.applySystemBarPadding(applyTop = true, applyBottom = true)
+
         adapter = EventoAdapter(eventos) { evento ->
             val intent = Intent(this, DetalleEventoActivity::class.java)
             intent.putExtra("evento_id", evento.intValue("id"))

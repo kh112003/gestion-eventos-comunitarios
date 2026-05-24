@@ -1,0 +1,9 @@
+com.grupo.gestioneventos.app-pngs-0 C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\build\generated\res\pngs\debug
+com.grupo.gestioneventos.app-res-1 C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\build\generated\res\processDebugGoogleServices
+com.grupo.gestioneventos.app-updated_navigation_xml-2 C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\build\generated\updated_navigation_xml\debug
+com.grupo.gestioneventos.app-packageDebugResources-3 C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.grupo.gestioneventos.app-packageDebugResources-4 C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.grupo.gestioneventos.app-debug-5 C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.grupo.gestioneventos.app-debug-6 C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\debug\res
+com.grupo.gestioneventos.app-main-7 C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\res
+gradleHome-0 C:\Users\melvi\.gradle

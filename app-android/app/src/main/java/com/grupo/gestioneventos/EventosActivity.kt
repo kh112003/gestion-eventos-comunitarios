@@ -21,6 +21,9 @@ class EventosActivity : AppCompatActivity() {
         binding = ActivityEventosBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        binding.appBar.applySystemBarPadding(applyTop = true)
+        binding.bottomActions.applySystemBarPadding(applyBottom = true)
+        binding.fabAddEvento.applyNavigationBarBottomMargin()
         setSupportActionBar(binding.toolbar)
 
         adapter = EventoAdapter(eventos) { evento ->

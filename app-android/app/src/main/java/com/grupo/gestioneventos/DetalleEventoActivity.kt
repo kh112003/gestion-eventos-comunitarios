@@ -8,6 +8,7 @@ import android.content.Intent
 import android.content.pm.PackageManager
 import android.os.Build
 import android.os.Bundle
+import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
@@ -32,6 +33,9 @@ class DetalleEventoActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityDetalleEventoBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        binding.rootDetalle.applySystemBarsAndImePadding(applyTop = true, applyBottom = true)
+        binding.rootDetalle.keepFocusedViewVisible(binding.etComentario)
 
         eventoId = intent.getIntExtra("evento_id", 0)
         titulo = intent.getStringExtra("evento_titulo").orEmpty()
@@ -128,6 +132,10 @@ class DetalleEventoActivity : AppCompatActivity() {
     private fun guardarComentario() {
         val comentario = binding.etComentario.text.toString().trim()
         val rating = binding.ratingEvento.rating.toInt()
+
+        binding.tilComentario.error = if (comentario.isEmpty()) "El comentario es requerido" else null
+        binding.tvRatingError.text = if (rating == 0) "La calificacion es requerida" else ""
+        binding.tvRatingError.visibility = if (rating == 0) View.VISIBLE else View.GONE
 
         if (comentario.isEmpty() || rating == 0) {
             Toast.makeText(this, "Agrega comentario y calificacion", Toast.LENGTH_SHORT).show()
