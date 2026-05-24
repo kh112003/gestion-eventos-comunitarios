@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_background">#101817</color>
+    <color name="app_danger">#FFB4AB</color>
+    <color name="app_on_primary">#06201D</color>
+    <color name="app_on_surface">#EAF2F0</color>
+    <color name="app_on_surface_variant">#B8C8C5</color>
+    <color name="app_primary">#6BD6C9</color>
+    <color name="app_primary_dark">#2F7D74</color>
+    <color name="app_secondary">#F2B66D</color>
+    <color name="app_surface">#192321</color>
+    <color name="app_surface_variant">#223330</color>
+    <style name="Base.Theme.GestionEventos" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/app_primary</item>
+        <item name="colorPrimaryDark">@color/app_primary_dark</item>
+        <item name="colorSecondary">@color/app_secondary</item>
+        <item name="colorAccent">@color/app_secondary</item>
+        <item name="colorError">@color/app_danger</item>
+        <item name="android:colorAccent">@color/app_secondary</item>
+        <item name="android:windowBackground">@color/app_background</item>
+        <item name="android:navigationBarColor">@color/app_background</item>
+        <item name="android:statusBarColor">@color/app_background</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="materialButtonStyle">@style/Widget.GestionEventos.Button</item>
+        <item name="floatingActionButtonStyle">@style/Widget.GestionEventos.Fab</item>
+    </style>
+</resources>

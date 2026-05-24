@@ -1,0 +1,361 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.grupo.gestioneventos"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->INJECTED
+8        android:minSdkVersion="24"
+8-->INJECTED
+9        android:targetSdkVersion="36" />
+9-->INJECTED
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+12-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:5:5-77
+12-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:5:22-74
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\082c5df7176dec09e2725b8b4d513d7a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:26:5-79
+13-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\082c5df7176dec09e2725b8b4d513d7a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:26:22-76
+14    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+14-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\4c92646f7d2ac3df9d0de44621189480\transformed\recaptcha-18.4.0\AndroidManifest.xml:9:5-98
+14-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\4c92646f7d2ac3df9d0de44621189480\transformed\recaptcha-18.4.0\AndroidManifest.xml:9:22-95
+15
+16    <permission
+16-->[androidx.core:core:1.18.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\f4c620cf8ec5e0939e2d7c681b42c77f\transformed\core-1.18.0\AndroidManifest.xml:22:5-24:47
+17        android:name="com.grupo.gestioneventos.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.18.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\f4c620cf8ec5e0939e2d7c681b42c77f\transformed\core-1.18.0\AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.18.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\f4c620cf8ec5e0939e2d7c681b42c77f\transformed\core-1.18.0\AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.grupo.gestioneventos.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.18.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\f4c620cf8ec5e0939e2d7c681b42c77f\transformed\core-1.18.0\AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.18.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\f4c620cf8ec5e0939e2d7c681b42c77f\transformed\core-1.18.0\AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:7:5-48:19
+23        android:allowBackup="true"
+23-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:8:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.18.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\f4c620cf8ec5e0939e2d7c681b42c77f\transformed\core-1.18.0\AndroidManifest.xml:28:18-86
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+26-->INJECTED
+27        android:icon="@mipmap/ic_launcher"
+27-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:9:9-43
+28        android:label="@string/app_name"
+28-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:10:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:11:9-54
+30        android:supportsRtl="true"
+30-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:12:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.GestionEventos"
+32-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:14:9-52
+33        android:usesCleartextTraffic="true" >
+33-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:13:9-44
+34        <activity
+34-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:15:9-18:70
+35            android:name="com.grupo.gestioneventos.HistorialActivity"
+35-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:16:13-46
+36            android:exported="false"
+36-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:17:13-37
+37            android:windowSoftInputMode="stateHidden|adjustResize" />
+37-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:18:13-67
+38        <activity
+38-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:19:9-22:70
+39            android:name="com.grupo.gestioneventos.EventoFormActivity"
+39-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:20:13-47
+40            android:exported="false"
+40-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:21:13-37
+41            android:windowSoftInputMode="stateHidden|adjustResize" />
+41-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:22:13-67
+42        <activity
+42-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:23:9-26:70
+43            android:name="com.grupo.gestioneventos.DetalleEventoActivity"
+43-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:24:13-50
+44            android:exported="false"
+44-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:25:13-37
+45            android:windowSoftInputMode="stateHidden|adjustResize" />
+45-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:26:13-67
+46        <activity
+46-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:27:9-30:70
+47            android:name="com.grupo.gestioneventos.EventosActivity"
+47-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:28:13-44
+48            android:exported="false"
+48-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:29:13-37
+49            android:windowSoftInputMode="stateHidden|adjustResize" />
+49-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:30:13-67
+50        <activity
+50-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:31:9-34:70
+51            android:name="com.grupo.gestioneventos.RegisterActivity"
+51-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:32:13-45
+52            android:exported="false"
+52-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:33:13-37
+53            android:windowSoftInputMode="stateHidden|adjustResize" />
+53-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:34:13-67
+54        <activity
+54-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:35:9-38:70
+55            android:name="com.grupo.gestioneventos.LoginActivity"
+55-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:36:13-42
+56            android:exported="false"
+56-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:37:13-37
+57            android:windowSoftInputMode="stateHidden|adjustResize" />
+57-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:38:13-67
+58        <activity
+58-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:39:9-47:20
+59            android:name="com.grupo.gestioneventos.MainActivity"
+59-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:40:13-41
+60            android:exported="true" >
+60-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:41:13-36
+61            <intent-filter>
+61-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:42:13-46:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:43:17-69
+62-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:43:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:45:17-77
+64-->C:\Users\melvi\Documents\GitHub\gestion-eventos-comunitarios\app-android\app\src\main\AndroidManifest.xml:45:27-74
+65            </intent-filter>
+66        </activity>
+67        <activity
+67-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\94d4f8191a041d9f40a63ec58cf3e41a\transformed\play-services-auth-21.0.0\AndroidManifest.xml:23:9-27:75
+68            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+68-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\94d4f8191a041d9f40a63ec58cf3e41a\transformed\play-services-auth-21.0.0\AndroidManifest.xml:24:13-93
+69            android:excludeFromRecents="true"
+69-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\94d4f8191a041d9f40a63ec58cf3e41a\transformed\play-services-auth-21.0.0\AndroidManifest.xml:25:13-46
+70            android:exported="false"
+70-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\94d4f8191a041d9f40a63ec58cf3e41a\transformed\play-services-auth-21.0.0\AndroidManifest.xml:26:13-37
+71            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+71-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\94d4f8191a041d9f40a63ec58cf3e41a\transformed\play-services-auth-21.0.0\AndroidManifest.xml:27:13-72
+72        <!--
+73            Service handling Google Sign-In user revocation. For apps that do not integrate with
+74            Google Sign-In, this service will never be started.
+75        -->
+76        <service
+76-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\94d4f8191a041d9f40a63ec58cf3e41a\transformed\play-services-auth-21.0.0\AndroidManifest.xml:33:9-37:51
+77            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+77-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\94d4f8191a041d9f40a63ec58cf3e41a\transformed\play-services-auth-21.0.0\AndroidManifest.xml:34:13-89
+78            android:exported="true"
+78-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\94d4f8191a041d9f40a63ec58cf3e41a\transformed\play-services-auth-21.0.0\AndroidManifest.xml:35:13-36
+79            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+79-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\94d4f8191a041d9f40a63ec58cf3e41a\transformed\play-services-auth-21.0.0\AndroidManifest.xml:36:13-107
+80            android:visibleToInstantApps="true" />
+80-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\94d4f8191a041d9f40a63ec58cf3e41a\transformed\play-services-auth-21.0.0\AndroidManifest.xml:37:13-48
+81        <service
+81-->[com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\cad672e6658407742c519ce9cdb23407\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:8:9-14:19
+82            android:name="com.google.firebase.components.ComponentDiscoveryService"
+82-->[com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\cad672e6658407742c519ce9cdb23407\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:9:13-84
+83            android:directBootAware="true"
+83-->[com.google.firebase:firebase-common:20.4.2] C:\Users\melvi\.gradle\caches\9.4.1\transforms\df15055402c5a25259d20e4cab371a1c\transformed\firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+84            android:exported="false" >
+84-->[com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\cad672e6658407742c519ce9cdb23407\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:10:13-37
+85            <meta-data
+85-->[com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\cad672e6658407742c519ce9cdb23407\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:11:13-13:85
+86                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthLegacyRegistrar"
+86-->[com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\cad672e6658407742c519ce9cdb23407\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:12:17-119
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\cad672e6658407742c519ce9cdb23407\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:13:17-82
+88            <meta-data
+88-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\082c5df7176dec09e2725b8b4d513d7a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:69:13-71:85
+89                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+89-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\082c5df7176dec09e2725b8b4d513d7a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:70:17-109
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\082c5df7176dec09e2725b8b4d513d7a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:71:17-82
+91            <meta-data
+91-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\melvi\.gradle\caches\9.4.1\transforms\f779a59c3b508ee506a9b779ee5d22af\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+92                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+92-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\melvi\.gradle\caches\9.4.1\transforms\f779a59c3b508ee506a9b779ee5d22af\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\melvi\.gradle\caches\9.4.1\transforms\f779a59c3b508ee506a9b779ee5d22af\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+94            <meta-data
+94-->[com.google.firebase:firebase-common:20.4.2] C:\Users\melvi\.gradle\caches\9.4.1\transforms\df15055402c5a25259d20e4cab371a1c\transformed\firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+95                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+95-->[com.google.firebase:firebase-common:20.4.2] C:\Users\melvi\.gradle\caches\9.4.1\transforms\df15055402c5a25259d20e4cab371a1c\transformed\firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[com.google.firebase:firebase-common:20.4.2] C:\Users\melvi\.gradle\caches\9.4.1\transforms\df15055402c5a25259d20e4cab371a1c\transformed\firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+97        </service>
+98
+99        <activity
+99-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\082c5df7176dec09e2725b8b4d513d7a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:29:9-46:20
+100            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+100-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\082c5df7176dec09e2725b8b4d513d7a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:30:13-80
+101            android:excludeFromRecents="true"
+101-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\082c5df7176dec09e2725b8b4d513d7a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:31:13-46
+102            android:exported="true"
+102-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\082c5df7176dec09e2725b8b4d513d7a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:32:13-36
+103            android:launchMode="singleTask"
+103-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\082c5df7176dec09e2725b8b4d513d7a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:33:13-44
+104            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+104-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\082c5df7176dec09e2725b8b4d513d7a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:34:13-72
+105            <intent-filter>
+105-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\082c5df7176dec09e2725b8b4d513d7a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:35:13-45:29
+106                <action android:name="android.intent.action.VIEW" />
+106-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\082c5df7176dec09e2725b8b4d513d7a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:36:17-69
+106-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\082c5df7176dec09e2725b8b4d513d7a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:36:25-66
+107
+108                <category android:name="android.intent.category.DEFAULT" />
+108-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\082c5df7176dec09e2725b8b4d513d7a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:38:17-76
+108-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\082c5df7176dec09e2725b8b4d513d7a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:38:27-73
+109                <category android:name="android.intent.category.BROWSABLE" />
+109-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\082c5df7176dec09e2725b8b4d513d7a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:39:17-78
+109-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\082c5df7176dec09e2725b8b4d513d7a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:39:27-75
+110
+111                <data
+111-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\082c5df7176dec09e2725b8b4d513d7a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:41:17-44:51
+112                    android:host="firebase.auth"
+112-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\082c5df7176dec09e2725b8b4d513d7a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:42:21-49
+113                    android:path="/"
+113-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\082c5df7176dec09e2725b8b4d513d7a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:43:21-37
+114                    android:scheme="genericidp" />
+114-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\082c5df7176dec09e2725b8b4d513d7a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:44:21-48
+115            </intent-filter>
+116        </activity>
+117        <activity
+117-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\082c5df7176dec09e2725b8b4d513d7a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:47:9-64:20
+118            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+118-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\082c5df7176dec09e2725b8b4d513d7a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:48:13-79
+119            android:excludeFromRecents="true"
+119-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\082c5df7176dec09e2725b8b4d513d7a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:49:13-46
+120            android:exported="true"
+120-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\082c5df7176dec09e2725b8b4d513d7a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:50:13-36
+121            android:launchMode="singleTask"
+121-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\082c5df7176dec09e2725b8b4d513d7a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:51:13-44
+122            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+122-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\082c5df7176dec09e2725b8b4d513d7a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:52:13-72
+123            <intent-filter>
+123-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\082c5df7176dec09e2725b8b4d513d7a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:53:13-63:29
+124                <action android:name="android.intent.action.VIEW" />
+124-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\082c5df7176dec09e2725b8b4d513d7a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:36:17-69
+124-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\082c5df7176dec09e2725b8b4d513d7a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:36:25-66
+125
+126                <category android:name="android.intent.category.DEFAULT" />
+126-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\082c5df7176dec09e2725b8b4d513d7a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:38:17-76
+126-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\082c5df7176dec09e2725b8b4d513d7a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:38:27-73
+127                <category android:name="android.intent.category.BROWSABLE" />
+127-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\082c5df7176dec09e2725b8b4d513d7a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:39:17-78
+127-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\082c5df7176dec09e2725b8b4d513d7a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:39:27-75
+128
+129                <data
+129-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\082c5df7176dec09e2725b8b4d513d7a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:41:17-44:51
+130                    android:host="firebase.auth"
+130-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\082c5df7176dec09e2725b8b4d513d7a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:42:21-49
+131                    android:path="/"
+131-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\082c5df7176dec09e2725b8b4d513d7a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:43:21-37
+132                    android:scheme="recaptcha" />
+132-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\082c5df7176dec09e2725b8b4d513d7a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:44:21-48
+133            </intent-filter>
+134        </activity>
+135        <activity
+135-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\f8b0bbbad2568976f8d32a2a33b14d8b\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+136            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+136-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\f8b0bbbad2568976f8d32a2a33b14d8b\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+137            android:exported="false"
+137-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\f8b0bbbad2568976f8d32a2a33b14d8b\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+138            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+138-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\melvi\.gradle\caches\9.4.1\transforms\f8b0bbbad2568976f8d32a2a33b14d8b\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+139
+140        <provider
+140-->[com.google.firebase:firebase-common:20.4.2] C:\Users\melvi\.gradle\caches\9.4.1\transforms\df15055402c5a25259d20e4cab371a1c\transformed\firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+141            android:name="com.google.firebase.provider.FirebaseInitProvider"
+141-->[com.google.firebase:firebase-common:20.4.2] C:\Users\melvi\.gradle\caches\9.4.1\transforms\df15055402c5a25259d20e4cab371a1c\transformed\firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+142            android:authorities="com.grupo.gestioneventos.firebaseinitprovider"
+142-->[com.google.firebase:firebase-common:20.4.2] C:\Users\melvi\.gradle\caches\9.4.1\transforms\df15055402c5a25259d20e4cab371a1c\transformed\firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+143            android:directBootAware="true"
+143-->[com.google.firebase:firebase-common:20.4.2] C:\Users\melvi\.gradle\caches\9.4.1\transforms\df15055402c5a25259d20e4cab371a1c\transformed\firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+144            android:exported="false"
+144-->[com.google.firebase:firebase-common:20.4.2] C:\Users\melvi\.gradle\caches\9.4.1\transforms\df15055402c5a25259d20e4cab371a1c\transformed\firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+145            android:initOrder="100" />
+145-->[com.google.firebase:firebase-common:20.4.2] C:\Users\melvi\.gradle\caches\9.4.1\transforms\df15055402c5a25259d20e4cab371a1c\transformed\firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+146        <provider
+146-->[androidx.emoji2:emoji2:1.2.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\f5163363e8b83bd28f3331e0150a5ea2\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+147            android:name="androidx.startup.InitializationProvider"
+147-->[androidx.emoji2:emoji2:1.2.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\f5163363e8b83bd28f3331e0150a5ea2\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+148            android:authorities="com.grupo.gestioneventos.androidx-startup"
+148-->[androidx.emoji2:emoji2:1.2.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\f5163363e8b83bd28f3331e0150a5ea2\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+149            android:exported="false" >
+149-->[androidx.emoji2:emoji2:1.2.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\f5163363e8b83bd28f3331e0150a5ea2\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+150            <meta-data
+150-->[androidx.emoji2:emoji2:1.2.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\f5163363e8b83bd28f3331e0150a5ea2\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+151                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+151-->[androidx.emoji2:emoji2:1.2.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\f5163363e8b83bd28f3331e0150a5ea2\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+152                android:value="androidx.startup" />
+152-->[androidx.emoji2:emoji2:1.2.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\f5163363e8b83bd28f3331e0150a5ea2\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+153            <meta-data
+153-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\32d7160fa98d26ee673ce04f9b7819d2\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+154                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+154-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\32d7160fa98d26ee673ce04f9b7819d2\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+155                android:value="androidx.startup" />
+155-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\32d7160fa98d26ee673ce04f9b7819d2\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+156            <meta-data
+156-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\a3692e076526dc90d0e84829eea4b998\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+157                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+157-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\a3692e076526dc90d0e84829eea4b998\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+158                android:value="androidx.startup" />
+158-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\a3692e076526dc90d0e84829eea4b998\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+159        </provider>
+160
+161        <uses-library
+161-->[androidx.window:window:1.0.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\ca8291ce76b2c5dd79497c7ac9b23cb4\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+162            android:name="androidx.window.extensions"
+162-->[androidx.window:window:1.0.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\ca8291ce76b2c5dd79497c7ac9b23cb4\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+163            android:required="false" />
+163-->[androidx.window:window:1.0.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\ca8291ce76b2c5dd79497c7ac9b23cb4\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+164        <uses-library
+164-->[androidx.window:window:1.0.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\ca8291ce76b2c5dd79497c7ac9b23cb4\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+165            android:name="androidx.window.sidecar"
+165-->[androidx.window:window:1.0.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\ca8291ce76b2c5dd79497c7ac9b23cb4\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+166            android:required="false" />
+166-->[androidx.window:window:1.0.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\ca8291ce76b2c5dd79497c7ac9b23cb4\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+167
+168        <meta-data
+168-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\98a775fd7e0a5cd22421a2325ff8ace9\transformed\play-services-basement-18.2.0\AndroidManifest.xml:21:9-23:69
+169            android:name="com.google.android.gms.version"
+169-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\98a775fd7e0a5cd22421a2325ff8ace9\transformed\play-services-basement-18.2.0\AndroidManifest.xml:22:13-58
+170            android:value="@integer/google_play_services_version" />
+170-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\98a775fd7e0a5cd22421a2325ff8ace9\transformed\play-services-basement-18.2.0\AndroidManifest.xml:23:13-66
+171
+172        <receiver
+172-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\a3692e076526dc90d0e84829eea4b998\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+173            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+173-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\a3692e076526dc90d0e84829eea4b998\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+174            android:directBootAware="false"
+174-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\a3692e076526dc90d0e84829eea4b998\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+175            android:enabled="true"
+175-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\a3692e076526dc90d0e84829eea4b998\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+176            android:exported="true"
+176-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\a3692e076526dc90d0e84829eea4b998\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+177            android:permission="android.permission.DUMP" >
+177-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\a3692e076526dc90d0e84829eea4b998\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+178            <intent-filter>
+178-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\a3692e076526dc90d0e84829eea4b998\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+179                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+179-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\a3692e076526dc90d0e84829eea4b998\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+179-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\a3692e076526dc90d0e84829eea4b998\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+180            </intent-filter>
+181            <intent-filter>
+181-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\a3692e076526dc90d0e84829eea4b998\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+182                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+182-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\a3692e076526dc90d0e84829eea4b998\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+182-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\a3692e076526dc90d0e84829eea4b998\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+183            </intent-filter>
+184            <intent-filter>
+184-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\a3692e076526dc90d0e84829eea4b998\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+185                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+185-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\a3692e076526dc90d0e84829eea4b998\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+185-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\a3692e076526dc90d0e84829eea4b998\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+186            </intent-filter>
+187            <intent-filter>
+187-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\a3692e076526dc90d0e84829eea4b998\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+188                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+188-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\a3692e076526dc90d0e84829eea4b998\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+188-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\melvi\.gradle\caches\9.4.1\transforms\a3692e076526dc90d0e84829eea4b998\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+189            </intent-filter>
+190        </receiver>
+191    </application>
+192
+193</manifest>

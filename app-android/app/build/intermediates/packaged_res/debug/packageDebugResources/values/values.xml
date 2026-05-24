@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_background">#F5F7F6</color>
+    <color name="app_danger">#BA1A1A</color>
+    <color name="app_on_primary">#FFFFFFFF</color>
+    <color name="app_on_surface">#18211F</color>
+    <color name="app_on_surface_variant">#5B6966</color>
+    <color name="app_primary">#2F7D74</color>
+    <color name="app_primary_dark">#1F5F58</color>
+    <color name="app_secondary">#D98735</color>
+    <color name="app_surface">#FFFFFFFF</color>
+    <color name="app_surface_variant">#E8F1EF</color>
+    <color name="black">#FF000000</color>
+    <color name="purple_500">#2F7D74</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Gestion Eventos Comunitarios</string>
+    <string name="cc_license_name">Creative Commons Attribution-ShareAlike 4.0 International</string>
+    <string name="cc_license_url">https://creativecommons.org/licenses/by-sa/4.0/</string>
+    <string name="default_web_client_id" translatable="false">919620598872-gu418chckru1l8mpjt843d1728kal6l2.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">919620598872</string>
+    <string name="google_api_key" translatable="false">AIzaSyAzJx7H9-hH2Fgvr33sHkPznIDjtoZce40</string>
+    <string name="google_app_id" translatable="false">1:919620598872:android:a7d2a20cc87168ad6c9e2d</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAzJx7H9-hH2Fgvr33sHkPznIDjtoZce40</string>
+    <string name="google_storage_bucket" translatable="false">gestion-eventos-comunita-f42ed.firebasestorage.app</string>
+    <string name="project_id" translatable="false">gestion-eventos-comunita-f42ed</string>
+    <style name="Base.Theme.GestionEventos" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/app_primary</item>
+        <item name="colorPrimaryDark">@color/app_primary_dark</item>
+        <item name="colorSecondary">@color/app_secondary</item>
+        <item name="colorAccent">@color/app_secondary</item>
+        <item name="colorError">@color/app_danger</item>
+        <item name="android:colorAccent">@color/app_secondary</item>
+        <item name="android:windowBackground">@color/app_background</item>
+        <item name="android:navigationBarColor">@color/app_background</item>
+        <item name="android:statusBarColor">@color/app_primary</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="materialButtonStyle">@style/Widget.GestionEventos.Button</item>
+        <item name="floatingActionButtonStyle">@style/Widget.GestionEventos.Fab</item>
+    </style>
+    <style name="Theme.GestionEventos" parent="Base.Theme.GestionEventos"/>
+    <style name="Widget.GestionEventos.Button" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/app_primary</item>
+        <item name="android:textColor">@color/app_on_primary</item>
+        <item name="iconTint">@color/app_on_primary</item>
+        <item name="cornerRadius">18dp</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+    <style name="Widget.GestionEventos.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="strokeColor">@color/app_primary</item>
+        <item name="android:textColor">@color/app_primary</item>
+        <item name="iconTint">@color/app_primary</item>
+        <item name="cornerRadius">18dp</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+    <style name="Widget.GestionEventos.Fab" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="backgroundTint">@color/app_secondary</item>
+        <item name="tint">@color/app_on_primary</item>
+    </style>
+</resources>
